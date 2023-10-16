@@ -21,13 +21,14 @@
     3 jquery
     4 jquery ui
     5 momen js -->
-<link rel="stylesheet" href="assets/fullcalendar.css">
+<link rel="stylesheet" href="assets/fullcalendar.bundle.css">
 <link rel="stylesheet" href="assets/bootstrap.css">
 
 <script src="assets/jquery.min.js"></script>
 <script src="assets/jquery-ui.min.js"></script>
 <script src="assets/moment.min.js"></script>
-<script src="assets/fullcalendar.min.js"></script>
+<script src="assets/fullcalendar.bundle.js"></script>
+<!-- <link href="assets/fullcalendar.bundle.js" rel="stylesheet" type="text/css" /> -->
 
 <body>
     <br>
@@ -47,7 +48,7 @@
                 editable: true,
                 // atur header kalender
                 header: {
-                    left: 'prev, next today',
+                    left: 'prev, next, today, list',
                     center: 'title',
                     right: 'month, agendaWeek, agendaDay'
                 },
